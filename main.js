@@ -20,6 +20,14 @@
 // powerLevel -= 100;
 // console.log(powerLevel);
 
-let quarterMe = 400;
-quarterMe /= 4;
-console.log(quarterMe);
+// let quarterMe = 400;
+// quarterMe /= 4;
+// console.log(quarterMe);
+
+// let gainedDollar = 15;
+// gainedDollar++;
+// console.log(gainedDollar);
+
+let lostDollar = 15;
+lostDollar--;
+console.log(lostDollar);
