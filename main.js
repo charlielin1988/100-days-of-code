@@ -32,7 +32,14 @@
 // lostDollar--;
 // console.log(lostDollar);
 
-let favoriteAnimal = 'bat';
+// let favoriteAnimal = 'bat';
 // console.log(favoriteAnimal);
 
-console.log('My favorite animal:' + favoriteAnimal + '.');
+// console.log('My favorite animal:' + favoriteAnimal + '.');
+
+const myName = 'Charlie';
+console.log(myName);
+const myCity = 'New Orleans';
+console.log(myCity);
+
+console.log(`My name is ${myName} and my favorite city is ${myCity} .`);
