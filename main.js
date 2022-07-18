@@ -37,9 +37,18 @@
 
 // console.log('My favorite animal:' + favoriteAnimal + '.');
 
-const myName = 'Charlie';
-console.log(myName);
-const myCity = 'New Orleans';
-console.log(myCity);
+// const myName = 'Charlie';
+// console.log(myName);
+// const myCity = 'New Orleans';
+// console.log(myCity);
 
-console.log(`My name is ${myName} and my favorite city is ${myCity} .`);
+// console.log(`My name is ${myName} and my favorite city is ${myCity} .`);
+
+let newVariable = 1;
+console.log(typeof newVariable);
+
+newVariable = 'foo';
+console.log(typeof newVariable);
+
+newVariable = false;
+console.log(typeof newVariable);
