@@ -28,6 +28,11 @@
 // gainedDollar++;
 // console.log(gainedDollar);
 
-let lostDollar = 15;
-lostDollar--;
-console.log(lostDollar);
+// let lostDollar = 15;
+// lostDollar--;
+// console.log(lostDollar);
+
+let favoriteAnimal = 'bat';
+// console.log(favoriteAnimal);
+
+console.log('My favorite animal:' + favoriteAnimal + '.');
