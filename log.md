@@ -6,4 +6,7 @@
 
 **Thoughts:**
 
+A little rusty on my JS basic commands, but it's coming back through this course!
+
 **Link to work:**
+https://www.codecademy.com/workspaces/62d58e7f551a7175e9d5f0cb
