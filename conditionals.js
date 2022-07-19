@@ -13,10 +13,22 @@
 //   console.log('We can eat later!');
 // }
 
-let mood = 'sleepy';
-let tirednessLevel = 8;
-if (mood === 'sleepy' && tirednessLevel === 8) {
-  console.log('time to sleep');
+// let mood = 'sleepy';
+// let tirednessLevel = 8;
+// if (mood === 'sleepy' && tirednessLevel === 8) {
+//   console.log('time to sleep');
+// } else {
+//   ('not bed time yet');
+// }
+
+// let wordCount = 4;
+// if (wordCount) {
+//   console.log(`Great! You've started your work!`);
+// }
+
+let favoritePhrase = '';
+if (favoritePhrase) {
+  console.log('Cool cool cool');
 } else {
-  ('not bed time yet');
+  console.log('This string is definitely empty.');
 }
