@@ -19,5 +19,7 @@ Muscle memory coming back!
 ### Day 3: Wednesday, July 20th, 2022
 
 **Today's Progress:**
+Reviewed control flow, switch cases
 
 **Thoughts:**
+The syntax of switch cases is a lot.
