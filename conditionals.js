@@ -1,4 +1,4 @@
-// if and else coniditionals
+// *****if and else conditionals*****
 
 // let sale = true;
 // sale = false;
@@ -8,7 +8,7 @@
 //   console.log('Time to wait for a sale.');
 // }
 
-// comparison and multiple conditionals
+// *******comparison and multiple conditionals*******
 
 // let hungerLevel = 7;
 // if (hungerLevel > 7) {
@@ -25,7 +25,7 @@
 //   ('not bed time yet');
 // }
 
-// truthy and falsy statements
+// *******truthy and falsy statements********
 
 // let wordCount = 4;
 // if (wordCount) {
@@ -63,7 +63,7 @@
 
 // console.log(`The ${writingUtensil} is mightier than the sword.`);
 
-// ternary operators
+// *******ternary operators******
 
 // let isNightTime = true;
 // if (isNightTime) {
@@ -118,16 +118,59 @@
 //   ? console.log('I love that!')
 //   : console.log(`I don't love that!`);
 
-let season = 'summer';
+// ******else if conditionals******
+// let season = 'summer';
 
-if (season === 'spring') {
-  console.log(`It's spring! The trees are budding!`);
-} else if (season === 'winter') {
-  console.log(`It's winter! Everything is covered in snow. `);
-} else if (season === 'fall') {
-  console.log('Its fall! Leaves are falling!');
-} else if (season === 'summer') {
-  console.log("It's sunny and warm because it's summer!");
-} else {
-  console.log('Invalid season.');
+// if (season === 'spring') {
+//   console.log(`It's spring! The trees are budding!`);
+// } else if (season === 'winter') {
+//   console.log(`It's winter! Everything is covered in snow. `);
+// } else if (season === 'fall') {
+//   console.log('Its fall! Leaves are falling!');
+// } else if (season === 'summer') {
+//   console.log("It's sunny and warm because it's summer!");
+// } else {
+//   console.log('Invalid season.');
+// }
+
+// *******switch cases******
+// Example
+// let groceryItem = 'papaya';
+// if(groceryItem === 'tomato') {
+//   console.log('Tomatoes are $.049');
+// } else if (groceryItem === 'papaya') {
+//   console.log('Papayas are $1.29')
+// } else {
+//   console.log('Invalid item');
+// }
+// A switch case can be used here to make our code drier:
+// let groceryItem = 'papaya';
+
+// switch (groceryItem) {
+//   case 'tomato':
+//     console.log('Tomatoes are $.049');
+//     break;
+//   case 'lime':
+//     console.log('Limes are $1.49');
+//     break;
+//   case 'papaya':
+//     console.log('Papayas are $1.29');
+//     break;
+//   default:
+//     console.log('Invalid item');
+//     break;
+// }
+let athleteFinalPosition = 'first place';
+switch (athleteFinalPosition) {
+  case 'first place':
+    console.log('Gold Medal');
+    break;
+  case 'second place':
+    console.log('Silver Medal');
+    break;
+  case 'third place':
+    console.log('Bronze Medal');
+  default:
+    console.log('No medal awarded.');
+    break;
 }
