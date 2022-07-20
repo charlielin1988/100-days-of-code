@@ -9,3 +9,5 @@ The log of my #100DaysOfCode challenge. Started on [July 18th, 2022].
 Reviewing Javascript on Codecademy's Javascript course.
 
 ### R1D2
+
+Reviewing more JS course.
