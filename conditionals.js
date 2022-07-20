@@ -160,17 +160,17 @@
 //     console.log('Invalid item');
 //     break;
 // }
-let athleteFinalPosition = 'first place';
-switch (athleteFinalPosition) {
-  case 'first place':
-    console.log('Gold Medal');
-    break;
-  case 'second place':
-    console.log('Silver Medal');
-    break;
-  case 'third place':
-    console.log('Bronze Medal');
-  default:
-    console.log('No medal awarded.');
-    break;
-}
+// let athleteFinalPosition = 'first place';
+// switch (athleteFinalPosition) {
+//   case 'first place':
+//     console.log('Gold Medal');
+//     break;
+//   case 'second place':
+//     console.log('Silver Medal');
+//     break;
+//   case 'third place':
+//     console.log('Bronze Medal');
+//   default:
+//     console.log('No medal awarded.');
+//     break;
+// }
