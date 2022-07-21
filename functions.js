@@ -50,8 +50,23 @@ function greetInSpanish() {
 // ****return****
 // the resulting value of calling a function is by default 'undefined'. we can capture the value of a function with the keyword 'return'. the keyword 'return' is what allows the function to produce an output.
 
+// function monitorCount(rows, columns) {
+//   return rows * columns;
+// }
+// const numOfMonitors = monitorCount(5, 4);
+// console.log(numOfMonitors);
+
+// ****helper functions****
+// functions being called inside of other functions are called 'helper functions'-they make our code easier to read and debug
+
 function monitorCount(rows, columns) {
   return rows * columns;
 }
 const numOfMonitors = monitorCount(5, 4);
 console.log(numOfMonitors);
+
+function costOfMonitors(rows, columns) {
+  return monitorCount(rows, columns) * 200;
+}
+const totalCost = costOfMonitors(5, 4);
+console.log(totalCost);
