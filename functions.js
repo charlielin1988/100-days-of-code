@@ -1,13 +1,13 @@
 // *****function basics******
 
-function getReminder() {
-  console.log('Water the plants.');
-}
+// function getReminder() {
+//   console.log('Water the plants.');
+// }
 // getReminder();
 
-function greetInSpanish() {
-  console.log('Buenas Tardes.');
-}
+// function greetInSpanish() {
+//   console.log('Buenas Tardes.');
+// }
 // greetInSpanish();
 // function sayThanks(name) {
 //   console.log(
@@ -59,14 +59,25 @@ function greetInSpanish() {
 // ****helper functions****
 // functions being called inside of other functions are called 'helper functions'-they make our code easier to read and debug
 
-function monitorCount(rows, columns) {
-  return rows * columns;
-}
-const numOfMonitors = monitorCount(5, 4);
-console.log(numOfMonitors);
+// function monitorCount(rows, columns) {
+//   return rows * columns;
+// }
+// const numOfMonitors = monitorCount(5, 4);
+// console.log(numOfMonitors);
 
-function costOfMonitors(rows, columns) {
-  return monitorCount(rows, columns) * 200;
-}
-const totalCost = costOfMonitors(5, 4);
-console.log(totalCost);
+// function costOfMonitors(rows, columns) {
+//   return monitorCount(rows, columns) * 200;
+// }
+// const totalCost = costOfMonitors(5, 4);
+// console.log(totalCost);
+
+// **** function expressions ****
+
+const plantNeedsWater = function (day) {
+  if (day === 'Wednesday') {
+    return true;
+  } else if (day !== 'Wednesday') {
+    return false;
+  }
+};
+console.log(plantNeedsWater('Tuesday'));
