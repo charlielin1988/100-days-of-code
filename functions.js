@@ -9,10 +9,16 @@ function greetInSpanish() {
   console.log('Buenas Tardes.');
 }
 // greetInSpanish();
-
-function sayThanks() {
-  console.log('Thank you for your purchase! We appreciate your business.');
+function sayThanks(name) {
+  console.log(
+    'Thank you for your purchase' +
+      ' ' +
+      name +
+      '! We appreciate your business.'
+  );
 }
-// sayThanks();
+sayThanks('Cole');
 
 // *****parameters and arguments*****
+// parameters are the variables you're passing into the function Ex: width, height
+// arguments are the actual values you're plugging into the function: Ex: 10, 6
