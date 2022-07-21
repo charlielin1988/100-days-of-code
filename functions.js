@@ -73,11 +73,27 @@
 
 // **** function expressions ****
 
-const plantNeedsWater = function (day) {
-  if (day === 'Wednesday') {
-    return true;
-  } else if (day !== 'Wednesday') {
-    return false;
-  }
-};
+// const plantNeedsWater = function (day) {
+//   if (day === 'Wednesday') {
+//     return true;
+//   } else if (day !== 'Wednesday') {
+//     return false;
+//   }
+// };
+// console.log(plantNeedsWater('Tuesday'));
+
+// *** arrow functions ***
+
+// const plantNeedsWater = (day) => {
+//   if (day === 'Wednesday') {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// };
+// console.log(plantNeedsWater('Tuesday'));
+
+// *** concise arrow functions ***
+
+const plantNeedsWater = (day) => (day === 'Wednesday' ? true : false);
 console.log(plantNeedsWater('Tuesday'));
