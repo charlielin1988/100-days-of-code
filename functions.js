@@ -36,14 +36,22 @@ function greetInSpanish() {
 // *****default parameters*****
 // default parameters are a feature of ES6 that allow for a predetermined value in case there is no argument passed into the function, or the argument is undefined when the function is called
 
-function greeting(name = 'stranger') {
-  console.log(`Hello, ${name}!`);
-}
+// function greeting(name = 'stranger') {
+//   console.log(`Hello, ${name}!`);
+// }
 // 'stranger' is our predetermined value here for the function, our default parameter
-greeting('Nick');
-greeting();
+// greeting('Nick');
+// greeting();
 // this will call a the default value of 'stranger' since there is no argument passed into the function
 
-function makeShoppingList(item1 = 'milk', item2 = 'bread', item3 = 'eggs') {
-  console.log(`${item1}, ${item2}, ${item3}`);
+// function makeShoppingList(item1 = 'milk', item2 = 'bread', item3 = 'eggs') {
+//   console.log(`${item1}, ${item2}, ${item3}`);
+// }
+// ****return****
+// the resulting value of calling a function is by default 'undefined'. we can capture the value of a function with the keyword 'return'. the keyword 'return' is what allows the function to produce an output.
+
+function monitorCount(rows, columns) {
+  return rows * columns;
 }
+const numOfMonitors = monitorCount(5, 4);
+console.log(numOfMonitors);
