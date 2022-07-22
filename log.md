@@ -31,3 +31,10 @@ Reviewed functions, function expressions, parameters and arguments, helper funct
 
 **Thoughts:**
 Although concise arrow functions and ternary expressions may help make code drier, I don't feel that combining the two makes code as legible when working on a team. Not the method I would likely use.
+
+### Day 5: Friday, July 22nd, 2022
+
+**Today's Progress:**
+Finished function review and started on scope review
+**Thoughts:**
+The syntax of arrow functions is getting easier to remember with repeated practice, although I still feel a little murky on when exactly the return keyword is needed.
