@@ -50,3 +50,18 @@
 // logVisibleLightWaves();-----> Moonlight
 
 // console.log(lightWaves); ----> this throws a reference error, because the variable cannot be called outside of the block scope of the function
+
+//  *** scope pollution ***
+// having too many global variables can make it difficult to keep track of different variables or can cause collisions with local variables and make for errors
+
+let satellite = 'The Moon';
+let galaxy = 'The Milky Way';
+let stars = 'North Star';
+
+const callMyNightSky = () => {
+  stars = 'Sirius';
+  return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+};
+console.log(callMyNightSky());
+console.log(stars);
+// stars was reassigned to Sirius, changing the global value, but it's not clear what exactly happened
