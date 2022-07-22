@@ -31,11 +31,22 @@
 // console.log(returnSkyColor());
 // the variable color exists outside of the function block, but can be accessed by the function because it has global scope
 
-let satellite = 'The Moon';
-let galaxy = 'The Milky Way';
-let stars = 'North Star';
+// let satellite = 'The Moon';
+// let galaxy = 'The Milky Way';
+// let stars = 'North Star';
 
-const callMyNightSky = () => {
-  return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
-};
-console.log(callMyNightSky());
+// const callMyNightSky = () => {
+//   return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+// };
+// console.log(callMyNightSky());
+
+//  **** block scope ***
+// variables that are defined within a block of code can only be referenced within that block of code. they cannot be called outside of that block
+
+// const logVisibleLightWaves = () => {
+//   let lightWaves = 'Moonlight';
+//   console.log(lightWaves);
+// };
+// logVisibleLightWaves();-----> Moonlight
+
+// console.log(lightWaves); ----> this throws a reference error, because the variable cannot be called outside of the block scope of the function
