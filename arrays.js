@@ -48,6 +48,17 @@
 
 // *** the .push() Method ***
 
-const chores = ['wash dishes', 'do laundry', 'take out trash'];
-chores.push('press tofu', 'wash fruit');
+// const chores = ['wash dishes', 'do laundry', 'take out trash'];
+// chores.push('press tofu', 'wash fruit');
+// console.log(chores);
+// **** the .pop() Method ***
+
+const chores = [
+  'wash dishes',
+  'do laundry',
+  'take out trash',
+  'mop floors',
+  'cook dinner'
+];
+chores.pop();
 console.log(chores);
