@@ -25,6 +25,18 @@
 
 // **** update elements ****
 
-let groceryList = ['bread', 'tomatoes', 'milk'];
-groceryList[1] = 'avocados';
-console.log(groceryList);
+// let groceryList = ['bread', 'tomatoes', 'milk'];
+// groceryList[1] = 'avocados';
+// console.log(groceryList);
+
+// **** arrays with let and const ****
+
+// let condiments = ['ketchup', 'mustard', 'soy sauce', 'Sriracha'];
+// condiments[0] = 'mayo';
+// console.log(condiments);
+// condiments = ['mayo'];
+// console.log(condiments);
+
+const utensils = ['fork', 'knife', 'chopsticks', 'spork'];
+utensils[3] = 'spoon';
+console.log(utensils);
