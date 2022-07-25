@@ -43,5 +43,11 @@
 
 // *** the .length property ***
 
-const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
-console.log(objectives.length);
+// const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
+// console.log(objectives.length);
+
+// *** the .push() Method ***
+
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+chores.push('press tofu', 'wash fruit');
+console.log(chores);
