@@ -38,3 +38,10 @@ Although concise arrow functions and ternary expressions may help make code drie
 Finished function review and started on scope review
 **Thoughts:**
 The syntax of arrow functions is getting easier to remember with repeated practice, although I still feel a little murky on when exactly the return keyword is needed.
+
+### Day 5: Monday, July 25th, 2022
+
+**Today's Progress:**
+Reviewed Arrays: syntax, accessing elements, methods, functions, and nested arrays
+**Thoughts:**
+I remember syntax for array methods!
