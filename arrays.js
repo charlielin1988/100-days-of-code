@@ -37,6 +37,11 @@
 // condiments = ['mayo'];
 // console.log(condiments);
 
-const utensils = ['fork', 'knife', 'chopsticks', 'spork'];
-utensils[3] = 'spoon';
-console.log(utensils);
+// const utensils = ['fork', 'knife', 'chopsticks', 'spork'];
+// utensils[3] = 'spoon';
+// console.log(utensils);
+
+// *** the .length property ***
+
+const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
+console.log(objectives.length);
