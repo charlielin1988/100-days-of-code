@@ -22,3 +22,9 @@
 // let listItem = famousSayings[0];
 // console.log(famousSayings[0]);
 // console.log(famousSayings[2]);
+
+// **** update elements ****
+
+let groceryList = ['bread', 'tomatoes', 'milk'];
+groceryList[1] = 'avocados';
+console.log(groceryList);
