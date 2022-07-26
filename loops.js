@@ -23,15 +23,23 @@
 // }
 
 // *** Nested Loops **
-const bobsFollowers = ['rudy', 'gene', 'linda', 'louise'];
-const tinasFollowers = ['gene', 'jimmyjr', 'sara', 'linda'];
-let mutualFollowers = [];
+// const bobsFollowers = ['rudy', 'gene', 'linda', 'louise'];
+// const tinasFollowers = ['gene', 'jimmyjr', 'sara', 'linda'];
+// let mutualFollowers = [];
 
-for (let i = 0; i < bobsFollowers.length; i++) {
-  for (let j = 0; j < tinasFollowers.length; j++) {
-    if (bobsFollowers[i] === tinasFollowers[j]) {
-      mutualFollowers.push(bobsFollowers[i]);
-    }
-  }
+// for (let i = 0; i < bobsFollowers.length; i++) {
+//   for (let j = 0; j < tinasFollowers.length; j++) {
+//     if (bobsFollowers[i] === tinasFollowers[j]) {
+//       mutualFollowers.push(bobsFollowers[i]);
+//     }
+//   }
+// }
+// console.log(mutualFollowers);
+
+// *** the while loop ***
+const cards = ['diamond', 'spade', 'heart', 'club'];
+let currentCard;
+while (currentCard != 'spade') {
+  currentCard = cards[Math.floor(Math.random() * 4)];
+  console.log(currentCard);
 }
-console.log(mutualFollowers);
