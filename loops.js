@@ -37,9 +37,17 @@
 // console.log(mutualFollowers);
 
 // *** the while loop ***
-const cards = ['diamond', 'spade', 'heart', 'club'];
-let currentCard;
-while (currentCard != 'spade') {
-  currentCard = cards[Math.floor(Math.random() * 4)];
-  console.log(currentCard);
-}
+// const cards = ['diamond', 'spade', 'heart', 'club'];
+// let currentCard;
+// while (currentCard != 'spade') {
+//   currentCard = cards[Math.floor(Math.random() * 4)];
+//   console.log(currentCard);
+// }
+//  **** do...while statements ****
+let cupsOfSugarNeeded = 4;
+let cupsAdded = 0;
+
+do {
+  cupsAdded++;
+  console.log(cupsAdded);
+} while (cupsAdded < cupsOfSugarNeeded);
