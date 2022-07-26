@@ -45,3 +45,10 @@ The syntax of arrow functions is getting easier to remember with repeated practi
 Reviewed Arrays: syntax, accessing elements, methods, functions, and nested arrays
 **Thoughts:**
 I remember syntax for array methods!
+
+### Day 6: Tuesday, July 26th, 2022
+
+**Today's Progress:**
+Reviewed Loops: Basics, For Loops, While Loops, Do...While, Nested Loops, and the Break Keyword
+**Thoughts:**
+Need some practice with loop syntax and block scoping
