@@ -1,52 +1,76 @@
 // *** the .forEach() method ***
 
-const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+// const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
 // fruits.forEach((fruit) => console.log('I want to eat a(n) ' + fruit));
 
 //  *** the .map() method ***
-const animals = [
-  'Hen',
-  'elephant',
-  'llama',
-  'leopard',
-  'ostrich',
-  'Whale',
-  'octopus',
-  'rabbit',
-  'lion',
-  'dog'
-];
+// const animals = [
+//   'Hen',
+//   'elephant',
+//   'llama',
+//   'leopard',
+//   'ostrich',
+//   'Whale',
+//   'octopus',
+//   'rabbit',
+//   'lion',
+//   'dog'
+// ];
 
-const secretMessage = animals.map((animal) => {
-  return animal[0];
-});
+// const secretMessage = animals.map((animal) => {
+//   return animal[0];
+// });
 // console.log(secretMessage.join(' '));
 
-const bigNumbers = [100, 200, 300, 400, 500];
+// const bigNumbers = [100, 200, 300, 400, 500];
 
-const smallNumbers = bigNumbers.map((number) => {
-  return number / 100;
-});
+// const smallNumbers = bigNumbers.map((number) => {
+//   return number / 100;
+// });
 // console.log(smallNumbers);
 
 // *** the .filter() method ***
 
-const randomNumbers = [375, 200, 3.14, 7, 13, 852];
+// const randomNumbers = [375, 200, 3.14, 7, 13, 852];
 
-const smallerNumbers = randomNumbers.filter((randomNumber) => {
-  return randomNumber < 250;
-});
+// const smallerNumbers = randomNumbers.filter((randomNumber) => {
+//   return randomNumber < 250;
+// });
 
-console.log(smallerNumbers);
+// console.log(smallerNumbers);
 
-const favoriteWords = [
-  'nostalgia',
-  'hyperbole',
-  'fervent',
-  'esoteric',
-  'serene'
-];
-const longFavoriteWords = favoriteWords.filter((faveWord) => {
-  return faveWord.length > 7;
-});
-console.log(longFavoriteWords);
+// const favoriteWords = [
+//   'nostalgia',
+//   'hyperbole',
+//   'fervent',
+//   'esoteric',
+//   'serene'
+// ];
+// const longFavoriteWords = favoriteWords.filter((faveWord) => {
+//   return faveWord.length > 7;
+// });
+// console.log(longFavoriteWords);
+
+//  *** the .findIndex() Method ***
+
+// const animals = [
+//   'hippo',
+//   'tiger',
+//   'lion',
+//   'seal',
+//   'cheetah',
+//   'monkey',
+//   'salamander',
+//   'elephant'
+// ];
+// const foundAnimal = animals.findIndex((animal) => {
+//   return animal === 'elephant';
+// });
+// console.log(foundAnimal);
+
+// const startsWithS = animals.findIndex((animal) => {
+//   return animal[0] === 's';
+// });
+// console.log(startsWithS);
+
+//
