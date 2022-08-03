@@ -28,3 +28,25 @@ const smallNumbers = bigNumbers.map((number) => {
   return number / 100;
 });
 // console.log(smallNumbers);
+
+// *** the .filter() method ***
+
+const randomNumbers = [375, 200, 3.14, 7, 13, 852];
+
+const smallerNumbers = randomNumbers.filter((randomNumber) => {
+  return randomNumber < 250;
+});
+
+console.log(smallerNumbers);
+
+const favoriteWords = [
+  'nostalgia',
+  'hyperbole',
+  'fervent',
+  'esoteric',
+  'serene'
+];
+const longFavoriteWords = favoriteWords.filter((faveWord) => {
+  return faveWord.length > 7;
+});
+console.log(longFavoriteWords);
