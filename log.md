@@ -59,3 +59,10 @@ Need some practice with loop syntax and block scoping
 Finished loops, started higher order functions and iterators
 **Thoughts:**
 the iterator methods are making much more sense to me this time around than they did learning them in bootcamp. I wanted to finish the javascript course today, but it is okay that it took longer than expected. I would rather make sure I know the concepts well than to rush through. Hoping to finish up the Javascript course review tomorrow and start on SQL review!
+
+### Day 8: Thursday, August 4th, 2022
+
+**Today's Progress:**
+Finished iterator lessons
+**Thoughts:**
+did not finish javascript course today, but did get through iterators and understand them better than i used to. tomorrow i will finish the course by finishing up the project for iterators and moving onto objects
