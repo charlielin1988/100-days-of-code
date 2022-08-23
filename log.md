@@ -66,3 +66,8 @@ the iterator methods are making much more sense to me this time around than they
 Finished iterator lessons
 **Thoughts:**
 did not finish javascript course today, but did get through iterators and understand them better than i used to. tomorrow i will finish the course by finishing up the project for iterators and moving onto objects
+
+### Day 9: Tuesdasy, August 23rd, 2022
+
+**Thoughts:**
+Got through most of objects in an hour. The syntax of pass by references needs review, as it is still a little confusing to me.
