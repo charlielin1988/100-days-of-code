@@ -11,17 +11,30 @@
 // };
 
 // Accessing Properties
-'hello'.length;
 
-let spaceship = {
-  homePlanet: 'Earth',
-  color: 'silver',
-  numCrew: 5,
-  flightPath: ['Venus', 'Mars', 'Saturn']
-};
+// let spaceship = {
+//   homePlanet: 'Earth',
+//   color: 'silver',
+//   numCrew: 5,
+//   flightPath: ['Venus', 'Mars', 'Saturn']
+// };
 
-let crewCount = spaceship.numCrew;
-let planetArray = spaceship.flightPath;
+// let crewCount = spaceship.numCrew;
+// let planetArray = spaceship.flightPath;
 
-console.log(crewCount);
-console.log(planetArray);
+// console.log(crewCount);
+// console.log(planetArray);
+
+// Bracket Notation
+// let spaceship = {
+//   'Fuel Type': 'Turbo Fuel',
+//   'Active Mission': true,
+//   homePlanet: 'Earth',
+//   numCrew: 5
+// };
+
+// let propName = 'Active Mission';
+
+// let isActive = spaceship['Active Mission'];
+
+// console.log(spaceship[propName]);
