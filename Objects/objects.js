@@ -38,3 +38,17 @@
 // let isActive = spaceship['Active Mission'];
 
 // console.log(spaceship[propName]);
+
+// Property Assignment
+let spaceship = {
+  'Fuel Type': 'Turbo Fuel',
+  homePlanet: 'Earth',
+  color: 'silver',
+  'Secret Mission': 'Discover life outside of Earth.'
+};
+
+spaceship.color = 'Glorious Gold';
+spaceship.numEngines = 8;
+delete spaceship['Secret Mission'];
+
+console.log(spaceship);
